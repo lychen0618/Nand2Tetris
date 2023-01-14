@@ -35,3 +35,16 @@ A gate is a simple chip. (只不过提供的功能比较简单)
 使用HDL实现15个chip：目前实现了Not, And, Or, Not16
 #### 注意事项
 * 使用Hardware Simulator时要安装较高版本的jdk，否则会显示找不到Nand.class。因为Nand.class是java13编译的，低版本的jdk不能使用高版本的.class文件。
+
+## Week2
+### Binary Numbers
+二进制和十进制之间的转换
+### Binary Arithmetic
+* 加
+* 减：由于使用补码表示，和加法一样
+* 乘（软件部分）
+
+### The Arithmetic Logic Unit (ALU)
+
+### Project2
+实现多个adder chip以及ALU chip
