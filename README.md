@@ -59,9 +59,13 @@ A gate is a simple chip. (只不过提供的功能比较简单)
 * Sequential Logic和Combinatorial Logic的区别：前者在时间t的输入会依赖t-1的信息，而后者的输入只依赖于时间t时的信息。
 
 ### DFF Gate
-在该课程中这个gate可以认为是primitive的
+在该课程中这个gate可以认为是primitive的。
+
+At the beginning of each clock cycle, the outputs of all the DFFs in the computer commit to their inputs during the previous time unit. At all other times, the DFFs are ‘‘latched’’, meaning that changes in their inputs have no immediate effect on their outputs.
+
+Hardware implementations achieve this time dependency by simultaneously feeding the master clock signal to all the DFF gates in the platform. Hardware simulators emulate the same effect in software. As far as the computer architect is concerned, the end result is the same: The inclusion of a DFF gate in the design of any chip ensures that the overall chip, as well as all the chips up the hardware hierarchy that depend on it, will be inherently time-dependent. These chips are called sequential, by definition.
 
 ### Register and RAM
 
 ### Project3
-实现不同大小的RAM和一个程序计数器（PC）
+实现不同大小的RAM和一个程序计数器（PC）：完成了子目录03/a下的所有chip
