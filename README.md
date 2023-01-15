@@ -48,3 +48,20 @@ A gate is a simple chip. (只不过提供的功能比较简单)
 
 ### Project2
 实现多个adder chip以及ALU chip
+
+## Week3
+### Clock
+把连续的时间分解成一定大小的时间单元（0-1, tik-tok），这样做的目的有两点：
+1. 使得系统的状态稳定：各组件状态的变化会有一定的延迟，在一个时间单元的后面，可以认为状态稳定了。
+2. 同步计算机中各组件的工作
+
+### Sequential Logic
+* Sequential Logic和Combinatorial Logic的区别：前者在时间t的输入会依赖t-1的信息，而后者的输入只依赖于时间t时的信息。
+
+### DFF Gate
+在该课程中这个gate可以认为是primitive的
+
+### Register and RAM
+
+### Project3
+实现不同大小的RAM和一个程序计数器（PC）
