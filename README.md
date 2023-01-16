@@ -69,3 +69,28 @@ Hardware implementations achieve this time dependency by simultaneously feeding 
 
 ### Project3
 实现不同大小的RAM和一个程序计数器（PC）：完成了子目录03/a下的所有chip
+
+## Week4
+### 机器码和汇编语言（Hack Computer Platform）
+* Machine language can be construed as both a programming tool and an integral part of the hardware platform. In fact, just as we say that the machine language is designed to exploit a given hardware platform, we can say that the hardware platform is designed to fetch, interpret, and execute instructions written in the given machine language.
+
+* Hack汇编语言
+    * 命令的类别：
+        1. 算术和逻辑运算
+        2. 内存访问操作：Direct addressing, Immediate addressing, Indirect addressing
+        3. 流程控制：返回循环的开头（循环）、条件执行（分支）、子过程调用
+
+### Project4
+使用Hack的汇编语言实现mult和fill
+
+#### 注意事项
+* mult
+    测试脚本会在一定的tick-tok后检查结果，所以如果代码需要的ticktok过多，无法通过测试。
+* fill：注意下面的写法
+    ```txt
+    @SCREEN
+    D=A
+    @i
+    A=D+M
+    M=-1
+    ```
