@@ -94,3 +94,21 @@ Hardware implementations achieve this time dependency by simultaneously feeding 
     A=D+M
     M=-1
     ```
+
+## Week5
+### Computer Architecture Fundamentals
+* The Stored Program Concept -> 计算机功能的多样性
+* 不同的计算机架构：
+    1. Turing machine -> Theoretical Computer Science
+    2. von Neumann machine -> Practical Computer Platform
+    3. Harvard architecture: 和von Neumann架构不同的是，data memory and the instruction memory are kept in separate physical memory units that have 
+    distinct address spaces
+* CPU
+    1. ALU
+    2. a set of registers
+    3. control unit: The instruction decoding is done by some control unit, which is also 
+responsible for figuring out which instruction to fetch and execute next.
+* fetch-execute cycle
+
+### Project5
+实现Memory、CPU和Computer chip
