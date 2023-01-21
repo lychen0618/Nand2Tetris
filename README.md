@@ -112,3 +112,33 @@ responsible for figuring out which instruction to fetch and execute next.
 
 ### Project5
 实现Memory、CPU和Computer chip
+
+---
+
+![](./pic/roadmap.png)
+
+---
+
+## Week7 & Week8
+* Stack
+* Memory Segments
+* Branching Commands
+* Function Commands
+### Project7 & Project8 (TODO)
+实现VM Translator
+
+## Week12
+### Project12
+
+# TODO
+## Week6
+### Project6
+实现Hack Computer Platform的汇编器
+
+## Week9
+### Project9
+High-Level Language: Jack
+
+## Week10 & Week 11
+### Project10 & Project11
+实现一个Compiler
