@@ -128,7 +128,13 @@ responsible for figuring out which instruction to fetch and execute next.
 实现VM Translator
 
 ## Week12
+Typical OS Services
+* Library: 输入输出（键盘、屏幕等）、数学计算、内存分配与释放
+* 提供各种抽象：file system, thread and process等
+* 交互式工具：GUI、shell
+* 设备驱动软件
 ### Project12
+实现了Array和Math两个库，测试程序运行很慢
 
 # TODO
 ## Week6
